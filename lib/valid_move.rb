@@ -2,7 +2,7 @@
 def valid_move?(board, index)
   index.to_i
   if index < board.length && position_taken? == false
-  return true
+  true
   end
 end
 
